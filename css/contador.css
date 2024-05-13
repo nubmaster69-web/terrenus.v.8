@@ -1,0 +1,138 @@
+/*primeiro contador*/
+  .areas-atuacao{
+      position: absolute;
+      width: 99vw; /* Ajuste a largura conforme necessário */
+      height: 25vw; /* Ajuste a altura conforme necessário */
+      background-color: #6c3c0c;
+      box-shadow: 5px 5px 15px rgb(0, 0, 0), 5px 5px 15px rgb(0, 0, 0);        
+    }
+
+    .areas-atuacao strong{
+      color: #fff;
+    }
+
+  .retangulo {
+      width: 200px; /* Largura desejada */
+      height: 100px; /* Altura desejada */
+      background-color: #ccc; /* Cor de fundo desejada */
+      border: 1px solid #000; /* Borda desejada */
+      padding: 20px; /* Espaçamento interno desejado */
+    }
+    
+  /*primeiro contador*/
+  .primeiro-contador {
+    position: relative; /* Torna a posição relativa para que a posição absoluta funcione */
+  }
+  
+  .square {
+    position: absolute;
+    top: 5vw; /* Ajuste a posição vertical do quadrado conforme necessário */
+    left: 70vw; /* Ajuste a posição horizontal do quadrado conforme necessário */
+    width: 500px; /* Ajuste a largura do quadrado conforme necessário */
+    height: 400px; /* Ajuste a altura do quadrado conforme necessário */
+    background-color: #0f4343; /* Cor de fundo do quadrado */
+    border: 10px solid #000; /* Borda do quadrado */
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  }
+  
+  .primeiro-contador span {
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 150px;
+    font-size: 100px;
+  }
+  
+  .square p{
+    padding-left: 5vw;
+    color: #fff;
+    border-top: 1px solid #fff;
+    font-size: 19px;
+  }
+  
+  .primeiro-contador i {
+    color: #fff;
+    font-size: 150px;
+  }
+  
+  /*Segundo contador*/
+  .segundo-contador {
+    position: relative; /* Torna a posição relativa para que a posição absoluta funcione */
+  }
+  
+  .segundo-square {
+    position: absolute;
+    top: 5vw; /* Ajuste a posição vertical do quadrado conforme necessário */
+    left: 5vw; /* Ajuste a posição horizontal do quadrado conforme necessário */
+    width: 500px; /* Ajuste a largura do quadrado conforme necessário */
+    height: 400px; /* Ajuste a altura do quadrado conforme necessário */
+    background-color: #0f4343; /* Cor de fundo do quadrado */
+    border: 10px solid #000; /* Borda do quadrado */
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  }
+  
+  .segundo-contador span {
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 150px;
+    font-size: 100px;
+  }
+  
+  .segundo-square p{
+    padding-left: 80px;
+    color: #fff;
+    border-top: 1px solid #fff;
+    font-size: 19px;
+  }
+  
+  .segundo-contador i {
+    color: #fff;
+    font-size: 150px;
+  }
+  
+  /*terceiro contador*/
+  .terceiro-contador {
+    position: relative; /* Torna a posição relativa para que a posição absoluta funcione */
+  }
+  
+  .terceiro-square {
+    position: absolute;
+    top: 5vw; /* Ajuste a posição vertical do quadrado conforme necessário */
+    left: 38vw; /* Ajuste a posição horizontal do quadrado conforme necessário */
+    width: 500px; /* Ajuste a largura do quadrado conforme necessário */
+    height: 400px; /* Ajuste a altura do quadrado conforme necessário */
+    background-color: #0f4343; /* Cor de fundo do quadrado */
+    border: 10px solid #000; /* Borda do quadrado */
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  }
+  
+  .terceiro-contador span {
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 150px;
+    font-size: 100px;
+  }
+  
+  .terceiro-square p{
+    padding-left: 100px;
+    color: #fff;
+    border-top: 1px solid #fff;
+    font-size: 19px;
+  }
+  
+  .terceiro-contador i {
+    color: #fff;
+    font-size: 130px;
+  }
+
+/*CORES DO STRONG*/
+.primeiro-contador strong{
+    color: #fff;
+}
+
+.segundo-contador strong{
+    color: #fff;
+}
+
+.terceiro-contador strong{
+    color: #fff;
+}

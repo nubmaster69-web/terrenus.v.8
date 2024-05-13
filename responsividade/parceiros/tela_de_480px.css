@@ -1,0 +1,123 @@
+@media screen and (max-width: 480px) {
+  img {
+    max-width: 100%; /* A imagem ocupará 100% da largura do contêiner em telas menores */
+  }
+
+  .layout_2 figcaption {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    font-family: Verdana, sans-serif;
+  }
+  
+  .layout_2 figcaption .text-wrapper {
+    display: block;
+  }
+  
+  .layout_2 figcaption .line {
+    display: block;
+  }
+  
+  .layout_2 figcaption .letters {
+    display: block;
+  }
+
+  .navbar-collapse.show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8); /* Branco transparente */
+    z-index: 1000;
+    overflow-y: auto;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-collapse.show .navbar-nav .nav-item {
+    display: block;
+    margin-top: 100px;
+  }
+
+  strong{
+    color: green;
+  }
+
+  .layout_2 img {
+    width: 150px;
+  }
+
+  .layout_2 img {
+    height: 360px;
+    width: auto;
+  }
+
+  /*CORPO PRINCIPAL DO SITE*/
+  .quotes-container-1 h1{
+    padding-top: 40vw;
+    padding-left: 5vw;
+  }
+  
+  /*PRINCIPAL CORPO DO SITE*/
+  .titulo-principais-clientes h1{
+    padding-top: 40vw;
+    text-align: center;
+  }
+
+  .titulo-principais-clientes img{
+    padding-left: 5vw;
+  }
+
+  .img-parceiro {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+  /*RODAPE*/
+
+  footer{
+    margin-top: 30vh; /* Utilizando uma unidade de medida relativa para a margem superior */
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 1vw; /* Utilizando uma unidade de medida relativa para o espaçamento entre os ícones */
+    justify-content: center; /* Centralizando os ícones horizontalmente */
+    position: absolute;
+    bottom: 15vw; /* Movendo os ícones um pouco acima da linha */
+    right: 41vw; /* Utilizando uma unidade de medida relativa para a posição direita */
+  }
+
+  .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw; /* Utilizando uma unidade de medida relativa para o tamanho dos ícones */
+    height: 5vw;
+    border-radius: 50%; /* Tornando-o um círculo */
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-left strong{
+    color: #fff;
+  }
+
+  .footer-left{
+    font-size: 1.8vw;
+  }
+
+  .footer-right{
+    font-size: 1.8vw;
+  }
+}

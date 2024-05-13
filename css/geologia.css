@@ -1,0 +1,298 @@
+html{
+    font-family: 'Roboto Slab', serif;
+    background-color: #fff ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-image: url('../img/layout/layout_1.PNG');
+    background-size: 100% 100%;
+    background-position: center;
+    margin-bottom: 0px; /* Compensação para a altura da barra de navegação */
+    height: 110px;
+    position: sticky;
+    top: 0;
+    z-index: 999; /* Para garantir que fique acima de outros elementos, se necessário */
+    }
+    
+    .navbar-brand {
+    position: absolute;
+    left: 20px; /* Ajuste a margem conforme necessário */
+    width: 60px;
+    }
+    
+    .nav-item{
+    padding-right: 40px;
+    }
+    
+    /* Estilos para o botão de Navbar Toggle */
+    .navbar-toggler {
+    position: fixed;
+    top: 30px; /* Ajuste a margem conforme necessário */
+    right: 30px; /* Ajuste a margem conforme necessário */
+    z-index: 9999; /* Certifica-se de que o botão do Navbar Toggle esteja na parte superior */
+    }
+    
+    header li{
+      font-size: 20px;
+    }
+    
+    strong{
+      color: #fff;
+    }
+    
+    
+    .layout_2 {
+      background-image: url('img/layout/layout_2.PNG');
+      background-size: 100% 100%;
+      background-position: center;
+      height: 200px; /* Ajuste conforme necessário */
+      position: relative; /* Necessário se você quiser posicionar o conteúdo absolutamente */
+      margin-bottom: 20vw;
+    }
+    
+    /* Estilos adicionais para a imagem e a legenda, se necessário */
+    .layout_2 img {
+      display: block; /* Para garantir que a imagem se ajuste corretamente */
+      width: 100%; /* Para garantir que a imagem se ajuste corretamente */
+    }
+    
+    .layout_2 figcaption {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      font-size: 4vw;
+      font-family: Verdana, sans-serif;
+    }
+    
+    .layout_2 figcaption .text-wrapper {
+      display: block;
+    }
+    
+    .layout_2 figcaption .line {
+      display: block;
+    }
+    
+    .layout_2 figcaption .letters {
+      display: block;
+    }
+
+    /*CORPO PRINICPAL DO SITE*/
+    /*geologia e mineração*/
+    .geologia_mineracao{
+        width: 46.875vw;
+        height: 30vw; /* Igual à largura para fazer um quadrado */
+        border: 1px solid #d3d3d3;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .geologia_mineracao img{
+        width: 110px; 
+        position: absolute; /* Posição absoluta para centralizar */
+        top: 80%; /* 50% do topo */
+        left: 50%; /* 50% da esquerda */
+        transform: translate(-50%, -50%); /* Translação para centralizar */
+    }
+
+    .geologia_mineracao h2{
+        padding-top: 115px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+        color: green;
+    }
+
+    .geologia_mineracao p{
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 20px;
+        color: #808080;
+    }
+
+    /*RODAPE*/
+
+    footer {
+        background-color: #0f4343;
+        padding: 2vw; /* Utilizando uma unidade de medida relativa para o preenchimento */
+        margin-top: 10vh; /* Utilizando uma unidade de medida relativa para a margem superior */
+        margin-bottom: 0;
+        position: relative;
+        box-shadow: 5px -5px 15px rgba(0, 0, 0, 0.8);
+    }
+
+    .footer-left,
+    .footer-right {
+        flex-grow: 1;
+    }
+
+    .footer-right{
+        margin-bottom: 70px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex; /* Alterando para flex para ajustar o alinhamento horizontal */
+        justify-content: center; /* Centralizando os elementos */
+    }
+
+    ul li {
+        margin-right: 1vw; /* Utilizando uma unidade de medida relativa para a margem direita */
+    }
+
+    footer li {
+        padding: 1vw; /* Utilizando uma unidade de medida relativa para o preenchimento */
+        color: #fff;
+    }
+
+    ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .copyright {
+        color: #fff;
+        border-top: 1px solid white;
+        padding-top: 1vw; /* Utilizando uma unidade de medida relativa para o preenchimento */
+        margin-left: 5vw; /* Utilizando uma unidade de medida relativa para a margem esquerda */
+        margin-right: 5vw; /* Utilizando uma unidade de medida relativa para a margem direita */
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 1vw; /* Utilizando uma unidade de medida relativa para o espaçamento entre os ícones */
+        justify-content: center; /* Centralizando os ícones horizontalmente */
+        position: absolute;
+        bottom: 5vw; /* Movendo os ícones um pouco acima da linha */
+        right: 41vw; /* Utilizando uma unidade de medida relativa para a posição direita */
+    }
+
+    .social-icons a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3vw; /* Utilizando uma unidade de medida relativa para o tamanho dos ícones */
+        height: 3vw;
+        border-radius: 50%; /* Tornando-o um círculo */
+        text-decoration: none;
+        color: white;
+    }
+
+    /* As cores dos ícones foram mantidas como no código original */
+    .social-icons a:nth-child(1) {
+        background-color: #964b00;
+    }
+
+    .social-icons a:nth-child(2) {
+        background-color: #6c3c0c;
+    }
+
+    .social-icons a:nth-child(3) {
+        background-color: #1c4514;
+    }
+
+    /*configuracao do botao para voltar para o topo*/
+    #myBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #964b00;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #myBtn:hover {
+        background-color: #964b00;
+    }
+
+    /*configuracao do botao do whatapp*/
+
+    #backToTop {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #00ff55; /* Blue color, adjust as needed */
+        color: #fff;
+        padding: 10px;
+        border-radius: 50%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        display: none; /* Initially hide the button */
+        z-index: 999; /* Ensure it's above other content */
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    #backToTop.active {
+        display: block; /* Show the button when it's active (e.g., when scrolling down) */
+    }
+
+    #backToTop:hover {
+        background-color: #6c3c0c; /* Darker blue color on hover */
+    }
+
+    /* Styles for the WhatsApp button */
+    #backToTop {
+        position: fixed;
+        width: 70px; /* Defina o tamanho do botão */
+        height: 70px;
+        bottom: 20px;
+        right: 20px;
+        background-color: #6c3c0c; /* Blue color, adjust as needed */
+        color: #fff;
+        padding: 10px;
+        border-radius: 50%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        display: none; /* Initially hide the button */
+        z-index: 999; /* Ensure it's above other content */
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    #backToTop.active {
+        display: block; /* Show the button when it's active (e.g., when scrolling down) */
+    }
+
+    #backToTop:hover {
+        background-color: #6c3c0c; /* Darker blue color on hover */
+    }
+
+    /* Styles for the WhatsApp button */
+    .whatsapp-button {
+        position: fixed;
+        width: 70px; /* Defina o tamanho do botão */
+        height: 70px;
+        bottom: 20px;
+        right: 100px; /* Adjust right position to align with Back to Top button */
+        background-color: #193314; /* WhatsApp green color */
+        color: #fff;
+        padding: 15px;
+        border-radius: 50%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        display: none; /* Initially hide the button */
+        z-index: 999; /* Ensure it's above other content */
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .whatsapp-button.active {
+        display: block; /* Show the button when it's active (e.g., when scrolling down) */
+    }
+
+    .whatsapp-button:hover {
+        background-color: #128C7E; /* WhatsApp green color on hover */
+    }

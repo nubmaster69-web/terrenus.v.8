@@ -1,0 +1,9 @@
+.dropdown-item:hover {
+    background-color: green;
+    color: white; /* Para garantir que o texto seja legível */
+}
+
+.dropdown-no-caret::after {
+    display: none !important;
+}
+
